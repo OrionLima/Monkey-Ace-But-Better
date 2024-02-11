@@ -54,6 +54,6 @@ namespace MonkeyAceButBetter
             towerSet.First(model => model.towerId == TowerType.MonkeyAce).towerIndex + 1; // Makes it be in front of the Monkey Ace (If Not Present it will be at the end of the Military section)
 
         public override bool IsValidCrosspath(int[] tiers) =>
-            ModHelper.HasMod("Ultimate Crosspathing") || base.IsValidCrosspath(tiers);  // Gives Ultimate Crosspathing Support
+            ModHelper.HasMod("UltimateCrosspathing") || base.IsValidCrosspath(tiers);  // Gives Ultimate Crosspathing Support
     }
 }
