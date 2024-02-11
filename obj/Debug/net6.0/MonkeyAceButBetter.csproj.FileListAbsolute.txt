@@ -1,0 +1,10 @@
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\bin\Debug\net6.0\MonkeyAceButBetter.deps.json
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\bin\Debug\net6.0\MonkeyAceButBetter.dll
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\obj\Debug\net6.0\MonkeyAceButBetter.csproj.AssemblyReference.cache
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\obj\Debug\net6.0\MonkeyAceButBetter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\obj\Debug\net6.0\MonkeyAceButBetter.AssemblyInfoInputs.cache
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\obj\Debug\net6.0\MonkeyAceButBetter.AssemblyInfo.cs
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\obj\Debug\net6.0\MonkeyAceButBetter.csproj.CoreCompileInputs.cache
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\obj\Debug\net6.0\MonkeyAceButBetter.dll
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\obj\Debug\net6.0\refint\MonkeyAceButBetter.dll
+C:\Users\Orion\OneDrive\Documents\BTD6 Mod Sources\MonkeyAceButBetter\obj\Debug\net6.0\ref\MonkeyAceButBetter.dll
