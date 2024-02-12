@@ -37,7 +37,7 @@ Add some more paths using Paths ++
 
 Add a Paragon
 
-Add new Visuals and Models
+Add new Visuals and Models (e.g. Base Tower Model, Upgrade Icons, ect.)
 
 And More
 
