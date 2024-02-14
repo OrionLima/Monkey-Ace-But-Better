@@ -33,7 +33,7 @@ Bye
 
 Make New Gamemodes, Bloons and Roundsets (New Mod) - This Will take the longest
 
-Finish Teir 3 - 5  - Finished Teir 3
+Finish Teir 3 - 5  - **Finished Teir 3**
 
 Add some more paths using Paths ++
 
