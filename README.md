@@ -19,7 +19,9 @@ This WILL be updated
 
 If you want to join my discord the link is here: https://discord.gg/hCgP22JNYA
 
-This Mod is Still in Alpha so only 2 tiers per path are availible
+The newest version of the mod and released the 3rd teir!
+
+Thank you to everyone who supported me!!!
 
 Please, Give Feedback
 
