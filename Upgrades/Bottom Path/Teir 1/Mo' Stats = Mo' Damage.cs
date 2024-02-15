@@ -2,6 +2,7 @@
 using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppAssets.Scripts.Simulation.Towers.Weapons.Behaviors;
+using Il2CppAssets.Scripts.Unity;
 using System;
 using System.Collections.Generic;
 using System.Linq;

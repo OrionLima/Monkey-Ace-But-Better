@@ -31,6 +31,7 @@ namespace MonkeyAceButBetter.Upgrades.Top_Path.Teir_1
             //Add New Weapons
             attackModel.AddWeapon(Game.instance.model.GetTowerFromId("NinjaMonkey-002").GetWeapon().Duplicate());
             attackModel.AddWeapon(Game.instance.model.GetTowerFromId("SuperMonkey-200").GetWeapon().Duplicate());
+            attackModel.AddWeapon(Game.instance.model.GetTowerFromId("DartlingGunner-200").GetWeapon().Duplicate());
         }
     }
 }

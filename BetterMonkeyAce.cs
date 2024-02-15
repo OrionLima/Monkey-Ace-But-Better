@@ -24,11 +24,13 @@ namespace MonkeyAceButBetter
 
         public override string DisplayName => "Better Monkey Ace";
 
-        public override int TopPathUpgrades => 2;
+        public override int TopPathUpgrades => 5;
 
-        public override int MiddlePathUpgrades => 2;
+        public override int MiddlePathUpgrades => 5;
 
-        public override int BottomPathUpgrades => 2;
+        public override int BottomPathUpgrades => 5;
+
+        public override ParagonMode ParagonMode => ParagonMode.Base555;
 
         public override void ModifyBaseTowerModel(TowerModel towerModel)
         {

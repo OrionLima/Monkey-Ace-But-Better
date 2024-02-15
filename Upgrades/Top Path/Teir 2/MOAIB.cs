@@ -19,6 +19,8 @@ namespace MonkeyAceButBetter.Upgrades.Top_Path.Teir_2
 
         public override string Name => "MOAIB";
 
+        public override string DisplayName => "MOAIB";
+
         public override string Description => "MOAIB (Monkey on an Inteligent Bomb) Makes the Monkey Panic and Shoot Faster but lose accuracy (lower pierce)";
 
         public override void ApplyUpgrade(TowerModel towerModel)

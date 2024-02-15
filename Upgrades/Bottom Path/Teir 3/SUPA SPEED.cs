@@ -7,19 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MonkeyAceButBetter.Upgrades.Top_Path.Teir_3
+namespace MonkeyAceButBetter.Upgrades.Middle_Path.Teir_3
 {
-    internal class SloWeapon_MorDamage : ModUpgrade<BetterMonkeyAce>
+    internal class SUPA_SPEED : ModUpgrade<BetterMonkeyAce>
     {
-        public override int Path => TOP;
+        public override int Path => BOTTOM;
 
         public override int Tier => 3;
 
-        public override int Cost => 4000;
+        public override int Cost => 5069;
 
-        public override string Name => "Sloweapon MorDamage";
+        public override string Name => "SUPA SPEED";
 
-        public override string Description => "Slows the ace down but gives you 4x more damage!";
+        public override string DisplayName => "SUPA SPEED";
+
+
+        public override string Description => "Makes you go SUPA FAST but smaller damage";
 
         public override void ApplyUpgrade(TowerModel towerModel)
         {
@@ -27,11 +30,9 @@ namespace MonkeyAceButBetter.Upgrades.Top_Path.Teir_3
             var weaponModel = towerModel.GetWeapon();
             var projectileModel = weaponModel.projectile;
 
-            // Attack Speed
-            weaponModel.rate *= 5;
+            weaponModel.rate *= 0.3f;
 
-            // Damage
-            projectileModel.GetDamageModel().damage *= 4;
+            projectileModel.GetDamageModel().damage -= 5;
         }
     }
 }

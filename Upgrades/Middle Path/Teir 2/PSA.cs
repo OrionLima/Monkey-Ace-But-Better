@@ -22,6 +22,9 @@ namespace MonkeyAceButBetter.Upgrades.Middle_Path.Teir_2
 
         public override string Name => "PSA";
 
+        public override string DisplayName => "PSA";
+
+
         public override string Description => "More Projectiles, Speed and Attack";
 
         public override void ApplyUpgrade(TowerModel towerModel)
