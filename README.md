@@ -19,7 +19,7 @@ This WILL be updated
 
 If you want to join my discord the link is here: https://discord.gg/hCgP22JNYA
 
-This Mod is Still in Alpha so only 2 tiers per path are availible
+**The mod has finally released!!!**
 
 Please, Give Feedback
 
@@ -30,8 +30,6 @@ Bye
 ## Plans
 
 Make New Gamemodes, Bloons and Roundsets (New Mod) - This Will take the longest
-
-Finish Teir 3 - 5
 
 Add some more paths using Paths ++
 
