@@ -2,6 +2,7 @@
 using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppAssets.Scripts.Unity;
+using MonkeyAceButBetter.Display.Projectiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,8 @@ namespace MonkeyAceButBetter.Upgrades.Bottom_Path.Teir_5
 
         public override string Name => "MAD Of Supersonic";
 
+        public override string DisplayName => "MAD Of Supersonic";
+
         public override string Description => "Upgrades lasers to Rays of Doom decinigrating all bloons. All projectiles fire at supersonic speeds.";
 
         public override void ApplyUpgrade(TowerModel towerModel)
@@ -27,6 +30,8 @@ namespace MonkeyAceButBetter.Upgrades.Bottom_Path.Teir_5
             var attackModel = towerModel.GetAttackModel();
             var weaponModel = towerModel.GetWeapon();
             var projectileModel = weaponModel.projectile;
+
+            projectileModel.ApplyDisplay<BombDisplay>();
 
             projectileModel.pierce = 999999999;
             attackModel.AddWeapon(Game.instance.model.GetTowerFromId("DartlingGunner-050").GetWeapon().Duplicate());

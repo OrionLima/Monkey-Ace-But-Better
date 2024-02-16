@@ -2,6 +2,7 @@
 using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppAssets.Scripts.Unity;
+using MonkeyAceButBetter.Display.Projectiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,8 @@ namespace MonkeyAceButBetter.Upgrades.Top_Path.Teir_5
             var attackModel = towerModel.GetAttackModel();
             var weaponModel = towerModel.GetWeapon();
             var projectileModel = weaponModel.projectile;
+
+            projectileModel.ApplyDisplay<BombDisplay>();
 
             projectileModel.GetDamageModel().damage = 300;
             projectileModel.pierce = 99999999999;

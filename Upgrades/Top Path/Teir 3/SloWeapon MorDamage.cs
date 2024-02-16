@@ -1,6 +1,7 @@
 ﻿using BTD_Mod_Helper.Api.Towers;
 using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.Towers;
+using MonkeyAceButBetter.Display.Projectiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,11 +22,14 @@ namespace MonkeyAceButBetter.Upgrades.Top_Path.Teir_3
 
         public override string Description => "Slows the ace down but gives you 4x more damage!";
 
+
         public override void ApplyUpgrade(TowerModel towerModel)
         {
             var attackModel = towerModel.GetAttackModel();
             var weaponModel = towerModel.GetWeapon();
             var projectileModel = weaponModel.projectile;
+
+            projectileModel.ApplyDisplay<MissileDisplay>();
 
             // Attack Speed
             weaponModel.rate *= 5;

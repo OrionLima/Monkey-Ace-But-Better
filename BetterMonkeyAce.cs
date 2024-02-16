@@ -4,6 +4,7 @@ using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Data.Quests;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppAssets.Scripts.Models.TowerSets;
+using MonkeyAceButBetter.Display.Projectiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,11 +33,15 @@ namespace MonkeyAceButBetter
 
         public override ParagonMode ParagonMode => ParagonMode.Base555;
 
+        
+
         public override void ModifyBaseTowerModel(TowerModel towerModel)
         {
             var attackModel = towerModel.GetAttackModel();
             var weaponModel = towerModel.GetWeapon();
             var projectileModel = weaponModel.projectile;
+
+            projectileModel.ApplyDisplay<DartDisplay>();
 
             //Range
             towerModel.range = 1000; // Higher = Better

@@ -1,6 +1,7 @@
 ﻿using BTD_Mod_Helper.Api.Towers;
 using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.Towers;
+using MonkeyAceButBetter.Display.Projectiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,8 @@ namespace MonkeyAceButBetter.Upgrades.Middle_Path.Teir_3
             var attackModel = towerModel.GetAttackModel();
             var weaponModel = towerModel.GetWeapon();
             var projectileModel = weaponModel.projectile;
+
+            projectileModel.ApplyDisplay<MissileDisplay>();
 
             weaponModel.rate *= 0.3f;
 

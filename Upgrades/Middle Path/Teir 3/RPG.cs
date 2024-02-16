@@ -14,6 +14,7 @@ using Il2CppAssets.Scripts.Unity.UI_New.InGame;
 using Il2CppAssets.Scripts.Models.Towers.Behaviors.Attack;
 using Il2CppAssets.Scripts.Unity;
 using Il2CppAssets.Scripts.Models.Towers.Mods;
+using MonkeyAceButBetter.Display.Projectiles;
 
 namespace MonkeyAceButBetter.Upgrades.Bottom_Path.Teir_3
 {
@@ -36,6 +37,8 @@ namespace MonkeyAceButBetter.Upgrades.Bottom_Path.Teir_3
             var attackModel = towerModel.GetAttackModel();
             var weaponModel = towerModel.GetWeapon();
             var projectileModel = weaponModel.projectile;
+
+            projectileModel.ApplyDisplay<MissileDisplay>();
 
             // ATK
             projectileModel.GetDamageModel().damage = 4;
