@@ -23,7 +23,11 @@ namespace MonkeyAceButBetter.Upgrades.Bottom_Path.Teir_5
 
         public override string DisplayName => "MAD Of Supersonic";
 
-        public override string Description => "Upgrades lasers to Rays of Doom decinigrating all bloons. All projectiles fire at supersonic speeds.";
+        public override string Icon => "Ray Of Supersonic-Icon";
+
+        public override string Portrait => "Ray Of Supersonic-Portrait";
+
+        public override string Description => "Upgrades lasers to MAD decinigrating all bloons. All projectiles fire at supersonic speeds.";
 
         public override void ApplyUpgrade(TowerModel towerModel)
         {

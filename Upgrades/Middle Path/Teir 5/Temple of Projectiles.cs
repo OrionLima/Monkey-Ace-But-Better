@@ -2,6 +2,7 @@
 using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppAssets.Scripts.Models.Towers.Behaviors.Emissions;
+using Il2CppAssets.Scripts.Unity;
 using MonkeyAceButBetter.Display.Projectiles;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,10 @@ namespace MonkeyAceButBetter.Upgrades.Middle_Path.Teir_5
 
         public override string Name => "Temple Of Projectiles";
 
+        public override string Icon => "Temple Of Projectiles-Icon";
+
+        public override string Portrait => "Temple Of Projectiles-Portrait";
+
         public override string Description => "Upgrades your Sun Avatar Beams to True Sun God Beams and gives you more projectiles and slightly increaces damage.";
 
         public override void ApplyUpgrade(TowerModel towerModel)
@@ -31,6 +36,7 @@ namespace MonkeyAceButBetter.Upgrades.Middle_Path.Teir_5
 
             projectileModel.ApplyDisplay<BombDisplay>();
 
+            attackModel.AddWeapon(Game.instance.model.GetTowerFromId("SuperMonkey-500").GetWeapon().Duplicate());
             weaponModel.rate *= 1.3f;
             weaponModel.emission = new ArcEmissionModel("ArcEmissionModel_", 69, 0, 360, null, false, true);
             projectileModel.GetDamageModel().damage = 50;

@@ -23,6 +23,10 @@ namespace MonkeyAceButBetter.Upgrades.Top_Path.Teir_5
 
         public override string Description => "Glaves destroy anything in a 3 mile radius, gives you much more damage on other attacks.";
 
+        public override string Portrait => "Burning Boomerangs-Portrait";
+
+        public override string Icon => "Burning Boomerangs-Icon";
+
         public override void ApplyUpgrade(TowerModel towerModel)
         {
             var attackModel = towerModel.GetAttackModel();

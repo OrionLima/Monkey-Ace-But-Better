@@ -12,8 +12,12 @@ namespace MonkeyAceButBetter.Upgrades
     internal class God_Of_Ace : ModParagonUpgrade<BetterMonkeyAce>
     {
         public override int Cost => 6000000;
-        public override string Description => "There's nothing stronger than it, not even God it's self...";
+        public override string Description => "There's nothing stronger than it, not even God itself...";
         public override string DisplayName => "God Of Ace";
+
+        public override string Icon => "God Of Ace-Icon";
+
+        public override string Portrait => "God Of Ace-Portrait";
 
         // This is getting its Icon and Portrait from GodKingOfSpades-Icon.png and GodKingOfSpace-Portrait.png, so no other overriding needed
 
