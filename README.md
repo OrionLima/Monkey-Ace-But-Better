@@ -31,8 +31,6 @@ Make New Gamemodes, Bloons and Roundsets (New Mod) - This Will take the longest
 
 Add some more paths using Paths ++
 
-Add a Paragon
-
 And More
 
 
