@@ -3,7 +3,7 @@ namespace MonkeyAceButBetter;
 public static class ModHelperData
 {
     public const string WorksOnVersion = "40.0";
-    public const string Version = "1.1.1";
+    public const string Version = "1.2.0";
     public const string Name = "Monkey Ace But Better";
 
     public const string Description = "This is my first ever BTD6 Mod, Called Better Monkey Ace, Go to the github page for more info.";

@@ -1,6 +1,7 @@
 ﻿using BTD_Mod_Helper.Api.Towers;
 using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers.Behaviors.Emissions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,13 @@ namespace MonkeyAceButBetter.Upgrades
 
         public override void ApplyUpgrade(TowerModel towerModel)
         {
+            var attackModel = towerModel.GetAttackModel();
+            var weaponModel = towerModel.GetWeapon();
+            var projectileModel = weaponModel.projectile;
 
+            weaponModel.emission = new ArcEmissionModel("ArcEmissionModel_", 69, 0, 360, null, false, true);
+            projectileModel.GetDamageModel().damage = 999;
+            weaponModel.rate = 0.25f;
         }
     }
 }
